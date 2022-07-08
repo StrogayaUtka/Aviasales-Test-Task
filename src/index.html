@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Дешёвые авиабилеты в Коноху</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="logo"><img src="images/Logo.svg" width="60" height="60"></div>
+    <main>
+      <form>
+        <div class="filters">
+          <h3>Количество пересадок</h3>
+          <div class="checkbox">
+              <input type="checkbox" class="typecheckbox" id="box-1">
+              <label for="box-1">Без пересадок</label>
+          </div>
+          <div class="checkbox">
+              <input type="checkbox" class="typecheckbox" id="box-2">
+              <label for="box-2">1 пересадка</label>
+          </div>
+          <div class="checkbox">
+              <input type="checkbox" class="typecheckbox" id="box-3">
+              <label for="box-3">2 пересадки</label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" class="typecheckbox" id="box-4">
+              <label for="box-4">3 пересадки</label>
+          </div>
+        </div>
+      </form>
+      <div class="content">
+        <div class="switch">
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="switch" value="1" checked>
+            <label for="radio-1">Самый дешёвый</label>
+          </div>
+          <div class="form_radio_btn">
+            <input id="radio-2" type="radio" name="switch" value="2">
+            <label for="radio-2">Самый быстрый</label>
+          </div>
+          <div class="form_radio_btn">
+            <input id="radio-3" type="radio" name="switch" value="3">
+            <label for="radio-3">Оптимальный</label>
+          </div>
+        </div>
+        <div class="tickets">
+        </div>
+        <button type="button" class="loadMore">показать ещё 5 билетов!</button>
+      </div>
+    </main>
+  </body>
+</html>
